@@ -15,6 +15,12 @@
 		1606FFAD1D9D62F30083646A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1606FFAB1D9D62F30083646A /* LaunchScreen.storyboard */; };
 		1606FFB81D9D62F30083646A /* snapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1606FFB71D9D62F30083646A /* snapchatTests.swift */; };
 		1606FFC31D9D62F30083646A /* snapchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1606FFC21D9D62F30083646A /* snapchatUITests.swift */; };
+		1606FFD21D9D64480083646A /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1606FFD01D9D64480083646A /* View1.swift */; };
+		1606FFD31D9D64480083646A /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1606FFD11D9D64480083646A /* View1.xib */; };
+		1606FFD61D9D66750083646A /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1606FFD41D9D66750083646A /* View2.swift */; };
+		1606FFD71D9D66750083646A /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1606FFD51D9D66750083646A /* View2.xib */; };
+		1606FFDA1D9D69640083646A /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1606FFD81D9D69640083646A /* View3.swift */; };
+		1606FFDB1D9D69640083646A /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1606FFD91D9D69640083646A /* View3.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		1606FFBE1D9D62F30083646A /* snapchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1606FFC21D9D62F30083646A /* snapchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapchatUITests.swift; sourceTree = "<group>"; };
 		1606FFC41D9D62F30083646A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1606FFD01D9D64480083646A /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		1606FFD11D9D64480083646A /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		1606FFD41D9D66750083646A /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View2.swift; path = ../View2.swift; sourceTree = "<group>"; };
+		1606FFD51D9D66750083646A /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View2.xib; path = ../View2.xib; sourceTree = "<group>"; };
+		1606FFD81D9D69640083646A /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		1606FFD91D9D69640083646A /* View3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,12 @@
 				1606FF9F1D9D62F30083646A /* AppDelegate.swift */,
 				1606FFA11D9D62F30083646A /* ViewController.swift */,
 				1606FFA31D9D62F30083646A /* Main.storyboard */,
+				1606FFD01D9D64480083646A /* View1.swift */,
+				1606FFD11D9D64480083646A /* View1.xib */,
+				1606FFD41D9D66750083646A /* View2.swift */,
+				1606FFD51D9D66750083646A /* View2.xib */,
+				1606FFD81D9D69640083646A /* View3.swift */,
+				1606FFD91D9D69640083646A /* View3.xib */,
 				1606FFA91D9D62F30083646A /* Assets.xcassets */,
 				1606FFAB1D9D62F30083646A /* LaunchScreen.storyboard */,
 				1606FFAE1D9D62F30083646A /* Info.plist */,
@@ -237,6 +255,9 @@
 			files = (
 				1606FFAD1D9D62F30083646A /* LaunchScreen.storyboard in Resources */,
 				1606FFAA1D9D62F30083646A /* Assets.xcassets in Resources */,
+				1606FFDB1D9D69640083646A /* View3.xib in Resources */,
+				1606FFD31D9D64480083646A /* View1.xib in Resources */,
+				1606FFD71D9D66750083646A /* View2.xib in Resources */,
 				1606FFA51D9D62F30083646A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1606FFD61D9D66750083646A /* View2.swift in Sources */,
 				1606FFA81D9D62F30083646A /* snapchat.xcdatamodeld in Sources */,
 				1606FFA21D9D62F30083646A /* ViewController.swift in Sources */,
+				1606FFD21D9D64480083646A /* View1.swift in Sources */,
+				1606FFDA1D9D69640083646A /* View3.swift in Sources */,
 				1606FFA01D9D62F30083646A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

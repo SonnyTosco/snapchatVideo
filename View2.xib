@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View2" customModule="snapchat" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraView" destination="qSG-Ot-Mn6" id="8CC-SF-AVo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qSG-Ot-Mn6">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.80919555590000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="qSG-Ot-Mn6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2sk-Sa-Zjq"/>
+                <constraint firstAttribute="trailing" secondItem="qSG-Ot-Mn6" secondAttribute="trailing" id="9Oq-z0-Gya"/>
+                <constraint firstAttribute="bottom" secondItem="qSG-Ot-Mn6" secondAttribute="bottom" id="gdr-32-VIY"/>
+                <constraint firstItem="qSG-Ot-Mn6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lEm-PN-aQe"/>
+                <constraint firstItem="qSG-Ot-Mn6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="tpb-Kw-OQ7"/>
+                <constraint firstItem="qSG-Ot-Mn6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xz0-vC-swY"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
